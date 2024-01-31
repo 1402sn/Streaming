@@ -36,7 +36,7 @@ client.on('ready', async () => {
     .addButton('♡', 'https://rentry.co/')
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
